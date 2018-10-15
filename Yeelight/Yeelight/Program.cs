@@ -39,7 +39,7 @@ namespace Yeelight
                     }
                     catch(Exception ex)
                     {
-                        PackageHost.WriteError("Unable to dispose device '{dc.Name}' ({device.Hostname}:{device.Port})");
+                        PackageHost.WriteError($"Unable to dispose device '{device.Key}' : {ex.Message}");
                     }
                 }
             }
