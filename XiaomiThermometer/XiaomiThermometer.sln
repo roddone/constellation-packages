@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XiaomiThermometer", "XiaomiThermometer\XiaomiThermometer.csproj", "{6A74F8C4-3495-41D3-BAB4-DD1A8E1198C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A74F8C4-3495-41D3-BAB4-DD1A8E1198C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A74F8C4-3495-41D3-BAB4-DD1A8E1198C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A74F8C4-3495-41D3-BAB4-DD1A8E1198C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A74F8C4-3495-41D3-BAB4-DD1A8E1198C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F8ADD1B-A5A6-453E-822E-D53CD18C18DE}
+	EndGlobalSection
+EndGlobal

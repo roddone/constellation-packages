@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Package xmlns="http://schemas.myconstellation.io/Constellation/1.8/PackageManifest"
+         Name="XiaomiThermometer"
+         Version="1.0"
+         Author="Romain"
+         URL="http://www.mywebsite.com"
+         Description="XiaomiThermometer Copyright ©  2021"
+         EnableControlHub="false">
+  <Compatibility constellationVersion="1.8" dotNetTargetPlatform="net45">
+    <Platforms>
+      <Platform id="Win32NT" isCompliant="true" />
+      <Platform id="Unix" isCompliant="true" />
+    </Platforms>
+  </Compatibility>
+  <Settings>
+    <Setting name="saveBatteryLifeEnabled" isRequired="false" defaultValue="true" type="Boolean"/>
+    <Setting name="saveBatteryLifeFetchingInterval" isRequired="false" defaultValue="300" type="Int32" description="time (in seconds) between sensor fetching" />
+    <Setting name="miDeviceMaxConnectionAttempts" isRequired="false" defaultValue="5" type="Int32" />
+    <Setting name="miDeviceIds" isRequired="false" defaultValue="null" type="JsonObject"/>
+    <!-- Add your package's settings here -->
+  </Settings>
+</Package>
